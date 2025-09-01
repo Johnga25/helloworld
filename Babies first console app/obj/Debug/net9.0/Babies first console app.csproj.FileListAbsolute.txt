@@ -1,0 +1,14 @@
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\bin\Debug\net9.0\Babies first console app.exe
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\bin\Debug\net9.0\Babies first console app.deps.json
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\bin\Debug\net9.0\Babies first console app.runtimeconfig.json
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\bin\Debug\net9.0\Babies first console app.dll
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\bin\Debug\net9.0\Babies first console app.pdb
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\Babies first console app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\Babies first console app.AssemblyInfoInputs.cache
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\Babies first console app.AssemblyInfo.cs
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\Babies first console app.csproj.CoreCompileInputs.cache
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\Babies first console app.dll
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\refint\Babies first console app.dll
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\Babies first console app.pdb
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\Babies first console app.genruntimeconfig.cache
+C:\Users\mario\Downloads\Code stuff idfk man\Babies first console app\obj\Debug\net9.0\ref\Babies first console app.dll
