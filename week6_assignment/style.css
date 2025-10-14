@@ -1,0 +1,30 @@
+
+:root {
+    --bg-color: rgb(88, 54, 30);
+    --text-color: rgb(173, 130, 73);
+    --font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+}
+
+h1, h2 {
+    font-size: clamp(1.2rem, 8vw, 2rem);
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+p1 {
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: rgb(90, 72, 32);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: rgb(20, 20, 20);
+        --text-color: rgb(200, 200, 200);
+    }
+}
