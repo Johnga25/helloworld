@@ -1,0 +1,38 @@
+#Settings-Panel {
+    line-height: 2.5;
+    background-color: rgb(196, 196, 196);
+}
+
+#Settings-Panel, .setting {
+
+    color:aliceblue
+}
+
+.active {
+    
+    color:blue
+}
+
+#Settings-Panel .setting:hover {
+
+    color: darkblue;
+    cursor: pointer;
+}
+
+:focus {
+
+    color: rgb(0, 0, 86);
+}
+
+a[href="privacy_policy"]::after{
+
+content: ' ↗';
+} 
+
+@media (max-width: 600px) {
+    #Settings-Panel {
+        font-size: 14px;
+        color: black;
+    }
+    
+}
