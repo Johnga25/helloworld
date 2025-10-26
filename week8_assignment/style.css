@@ -1,0 +1,25 @@
+*, *::before, *::after {
+
+  box-sizing: border-box;
+
+}
+
+
+.product-card {
+
+  border: dashed thick #ff0000;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  margin: 30px 10px;
+  text-align: center;
+}
+
+article :hover {
+    box-sizing: border-box;
+
+  border: solid thick #0008ff;
+  box-shadow: .8rem .8rem .2rem gray;
+  padding: 15px;
+}
