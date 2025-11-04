@@ -8,3 +8,34 @@
  color: rgb(0, 0, 0);
  font-family: 'Times New Roman', Times, serif;
 }
+
+.nav-bar {
+  border: dashed thin #7700ff;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.heading {
+
+  border: dashed thick #ff0000;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.paragraph {
+  border: solid thick #e100ff;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  padding: 10px;
+  margin: 80px 20px;
+  text-align: center;
+}
