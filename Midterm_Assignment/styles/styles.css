@@ -31,11 +31,71 @@
 }
 
 .paragraph {
-  border: solid thick #e100ff;
+  border: solid thin #ff4a4a;
   width: 400px;
   height: auto;
   margin-left: auto;
   padding: 10px;
   margin: 80px 20px;
   text-align: center;
+}
+
+@media (max-width: 320px) {
+    :root {
+        font-size: 10px;
+        color: black;
+    }
+
+    .nav-bar {
+  border: dashed thin #7700ff;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+    .heading {
+  font-size: 6px;
+  border: dashed thick #ff0000;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.paragraph {
+  border: solid thin #ff4a4a;
+  font-size: 8px;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  padding: 5px;
+  margin: 30px 10px;
+  text-align: center;
+}
+
+.square-photo {
+  float: right;
+  margin: 10px 20px;
+  border: solid thin #ab50ff;
+  font-size: 8px;
+  width: 155px;
+  box-shadow: #1a0038 -0.3rem -0.3rem 0.5rem;
+}
+
+#index-p2 {
+  border: solid thin #4a5cff;
+  font-size: 8px;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  padding: 5px;
+  margin: 30px 10px;
+  text-align: center;
+}
+    
 }
