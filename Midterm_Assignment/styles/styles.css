@@ -21,13 +21,14 @@
 
 .heading {
 
-  border: dashed thick #ff0000;
+  border: solid #ff0000;
   width: 500px;
   margin-right: auto;
   margin-left: auto;
   padding: 5px;
   margin: 20px 10px;
   text-align: center;
+  box-shadow: #380000 0.3rem 0.3rem 0.5rem;
 }
 
 .paragraph {
@@ -38,6 +39,60 @@
   padding: 10px;
   margin: 80px 20px;
   text-align: center;
+  box-shadow: #380000 0.3rem 0.3rem 0.5rem;
+}
+.square-photo {
+  float: right;
+  margin: 10px 20px;
+  border: solid thin #ab50ff;
+  width: 155px;
+  box-shadow: #1a0038 -0.3rem -0.3rem 0.5rem;
+}
+
+.nav-bar :hover {
+    box-sizing: border-box;
+
+  border: solid thin #ff00ff;
+  box-shadow: .5rem .5rem .2rem gray;
+  padding: 5px;
+}
+
+.footer {
+  margin-right: auto;
+  margin-left: auto;
+  margin: 20px 5px;
+  float: bottom;
+  text-align: left;
+}
+
+.Art-description {
+  border: solid thin #ff4a4a;
+  float: left;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  padding: 10px;
+  margin: 20px 20px;
+  text-align: center;
+  box-shadow: #380000 0.3rem 0.3rem 0.5rem;
+}
+
+#Flesh-Computer {
+  float: left;
+  margin: 2.5px 20px;
+  border: solid thin #ab50ff;
+  font-size: 8px;
+  width: 155px;
+  box-shadow: #1a0038 -0.3rem -0.3rem 0.5rem;
+}
+
+#Drawing-Meeting-Life {
+  float: left;
+  margin: 8px 20px;
+  border: solid thin #ab50ff;
+  font-size: 8px;
+  width: 155px;
+  box-shadow: #1a0038 -0.3rem -0.3rem 0.5rem;
 }
 
 @media (max-width: 320px) {
@@ -48,7 +103,7 @@
 
     .nav-bar {
   border: dashed thin #7700ff;
-  width: 150px;
+  width: 160px;
   margin-right: auto;
   margin-left: auto;
   padding: 5px;
@@ -57,8 +112,8 @@
 }
 
     .heading {
-  font-size: 6px;
-  border: dashed thick #ff0000;
+  font-size: 8px;
+  border: solid thick #ff0000;
   width: 200px;
   margin-right: auto;
   margin-left: auto;
@@ -97,5 +152,48 @@
   margin: 30px 10px;
   text-align: center;
 }
-    
+
+
+.Art-description {
+  float: right;
+  border: solid thin #ff4a4a;
+  font-size: 16px;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  padding: 5px;
+  margin: 5px 20px;
+  text-align: center;
+  box-shadow: #380000 0.3rem 0.3rem 0.5rem;
+}
+
+#Flesh-Computer {
+  float: left;
+  margin: 2.5px 20px;
+  border: solid thin #ab50ff;
+  font-size: 8px;
+  width: 155px;
+  box-shadow: #1a0038 -0.3rem -0.3rem 0.5rem;
+}
+
+#Drawing-Meeting-Life {
+  float: left;
+  margin: 8px 20px;
+  border: solid thin #ab50ff;
+  font-size: 8px;
+  width: 155px;
+  box-shadow: #1a0038 -0.3rem -0.3rem 0.5rem;
+}
+
+footer {
+
+  bottom: 0;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 20px 5px;
+  text-align: left;
+}
+
 }
