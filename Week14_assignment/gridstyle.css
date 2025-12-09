@@ -1,0 +1,106 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --header-bg-color: #514caf;
+    --sidebar-bg-color: #6e9fbb;
+    --content-bg-color: white;
+    --footer-bg-color: #514caf;
+    --accent-color: #e96161;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Inter', sans-serif;
+    background-color: var(--main-bg-color);
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.magazine-layout {
+
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: minmax(100px, 200px) 1fr 1fr;
+    grid-template-areas: 
+      "header header header"
+      "nav nav nav"
+      "pull-quote main main"
+      "main-image main-image main-image"
+      "footer footer footer";
+    gap: 1rem;
+}
+
+.header { grid-area : header; }
+.navigation { grid-area : nav; }
+.pull-quote { grid-area : pull-quote; }
+.main-content { grid-area : main; }
+.main-image { grid-area : main-image; }
+.footer { grid-area : footer; }
+
+.grid-item {
+    padding: var(--padding-base);
+    border-radius: 0.5rem;
+    color: var(--text-dark);
+    font: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-bg-color);
+    color: var(--text-light);
+    padding: 1rem var(--padding-base);
+    text-align: center;
+    font-weight: 700;
+}
+
+.navigation {
+    background-color: var(--accent-color);
+    color: var(--text-light);
+    display: flex;
+    gap: 1.5rem; 
+}
+
+.navigation a:hover {
+    color: var(--accent-color);
+}
+
+.pull-quote {
+    background-color: var(--sidebar-bg-color);
+    padding: var(--padding-base);
+}
+
+.pull-quote ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.pull-quote li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #a0aec0
+}
+
+.main-content {
+    background-color: var(--content-bg-color);
+    padding: var(--padding-base);
+}
+
+.main-content h2 {
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: var(--footer-bg-color);
+    color: var(--text-light);
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 1rem var(--padding-base);
+}
