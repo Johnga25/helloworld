@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Babies first console app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96900e8a074590ced821822530a763e73e2bafd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9708fc14c021e02f780324e61f1ffe5fcd23d0ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Babies first console app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Babies first console app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
