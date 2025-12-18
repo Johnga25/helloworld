@@ -1,9 +1,9 @@
 :root {
     --main-bg-color: #ffe7e7;
-    --header-bg-color: #7771e7;
-    --sidebar-bg-color: #88bfe0;
+    --header-bg-color: #928ee4;
+    --sidebar-bg-color: #928ee4;
     --content-bg-color: rgb(251, 215, 255);
-    --footer-bg-color: #e39269;
+    --footer-bg-color: #ff9c9c;
     --accent-color: #ff9c9c;
     --text-light: #ffd4d4;
     --text-dark: #000000;
@@ -14,6 +14,8 @@
     margin: 0;
     padding: 0;
 }
+
+ /* Homepage/Main Styles */
 
 body {
 
@@ -66,10 +68,11 @@ body {
     color: var(--text-light);
     display: flex;
     gap: 1.5rem; 
+    align-items: center;
 }
 
 .navigation a:hover {
-    color: var(--accent-color);
+    color: darkblue;
 }
 
 .pull-quote {
@@ -83,13 +86,20 @@ body {
 }
 
 .pull-quote li {
-    padding: 0.5rem 0;
+    padding: 8.5px;
     border-bottom: 1px dashed #a0aec0
+}
+
+.pull-quote h3 {
+    padding: 0.5rem;
+    color: var(--text-light);
 }
 
 .main-content {
     background-color: var(--content-bg-color);
     padding: 5px;
+    font-size: 20px;
+    word-spacing: 3px;
 }
 
 .main-content h2 {
@@ -114,11 +124,7 @@ body {
 }
 
 
-
-
-
-
-
+/* Library Page Styles */
 
 .content-wrapper {
     background-color: white;
@@ -178,4 +184,31 @@ body {
 .main-content-library h2 {
     margin-bottom: 1rem;
     color: var(--text-dark);
+}
+
+/* Contact Page Styles */
+
+
+.pull-link {
+    background-color: var(--sidebar-bg-color);
+    padding: var(--padding-base);
+}
+
+.pull-link ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.pull-link li {
+    padding: 8.5px;
+    border-bottom: 1px dashed #a0aec0
+}
+
+.pull-link h3 {
+    padding: 0.5rem;
+    color: var(--text-light);
+}
+
+aside li a:hover {
+    color: rgb(0, 6, 87);
 }
