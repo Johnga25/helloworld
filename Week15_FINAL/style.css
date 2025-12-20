@@ -1,8 +1,8 @@
 :root {
     --main-bg-color: #ffe7e7;
-    --header-bg-color: #928ee4;
-    --sidebar-bg-color: #928ee4;
-    --content-bg-color: rgb(251, 215, 255);
+    --header-bg-color: #453ED0;
+    --sidebar-bg-color: #ffd4d4;
+    --content-bg-color: #453ED0;
     --footer-bg-color: #ff9c9c;
     --accent-color: #ff9c9c;
     --text-light: #ffd4d4;
@@ -69,15 +69,22 @@ body {
     display: flex;
     gap: 1.5rem; 
     align-items: center;
+    transition: 0.5s;
 }
 
 .navigation a:hover {
-    color: darkblue;
+    color: rgb(0, 4, 255);
 }
+
+.navigation a:focus-visible {
+    color: rgb(0, 4, 255);
+}
+
 
 .pull-quote {
     background-color: var(--sidebar-bg-color);
     padding: var(--padding-base);
+    color:var(--text-dark);
 }
 
 .pull-quote ul {
@@ -92,7 +99,7 @@ body {
 
 .pull-quote h3 {
     padding: 0.5rem;
-    color: var(--text-light);
+    color: var(--text-dark);
 }
 
 .main-content {
@@ -100,6 +107,7 @@ body {
     padding: 5px;
     font-size: 20px;
     word-spacing: 3px;
+    color: var(--text-light);
 }
 
 .main-content h2 {
@@ -175,6 +183,12 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.Book-card:focus-visible {
+    transform: scale(1.05);
+    translate:Y(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .main-content-library {
     border-radius: 10px;
     background-color: rgb(190, 147, 127);
@@ -188,27 +202,14 @@ body {
 
 /* Contact Page Styles */
 
-
-.pull-link {
-    background-color: var(--sidebar-bg-color);
-    padding: var(--padding-base);
-}
-
-.pull-link ul {
-    list-style: none;
-    margin-top: 1rem;
-}
-
-.pull-link li {
-    padding: 8.5px;
-    border-bottom: 1px dashed #a0aec0
-}
-
-.pull-link h3 {
-    padding: 0.5rem;
-    color: var(--text-light);
+aside li {
+     transition: 0.5s;
 }
 
 aside li a:hover {
-    color: rgb(0, 6, 87);
+    color: rgb(0, 0, 0);
+}
+
+aside li a:focus-visible {
+    color: rgb(0, 0, 0);
 }
